@@ -1,0 +1,14 @@
+# Python 3.12; versions observed in the experiment environment.
+# Install torch first from the CPU or CUDA 12.4 index described in README.md.
+# Local version suffixes (+cpu / +cu124) satisfy torch==2.6.0.
+numpy==2.2.6
+scipy==1.14.1
+pandas==3.0.5
+matplotlib==3.11.1
+torch==2.6.0
+pyserial==3.5
+threadpoolctl==3.6.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.3.0
+jupyter_client==8.9.1

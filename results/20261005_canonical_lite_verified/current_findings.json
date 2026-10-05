@@ -1,0 +1,99 @@
+{
+  "quality": {
+    "51": {
+      "OMP": {
+        "num_subjects": 15,
+        "macro_prd_mean": 69.40785396374154,
+        "macro_prd_std": 5.411508248700812,
+        "macro_rmse_mean": 0.5765257128253036,
+        "macro_rmse_std": 0.1960900003092283,
+        "macro_snr_mean": 3.697493015568261,
+        "macro_snr_std": 0.6977354086306823
+      },
+      "CNN": {
+        "num_subjects": 15,
+        "macro_prd_mean": 22.024300731881013,
+        "macro_prd_std": 2.0962042240111285,
+        "macro_rmse_mean": 0.17418920453603934,
+        "macro_rmse_std": 0.057663143596065725,
+        "macro_snr_mean": 13.490885393771435,
+        "macro_snr_std": 0.815021359815122
+      }
+    },
+    "77": {
+      "OMP": {
+        "num_subjects": 15,
+        "macro_prd_mean": 43.011089105542105,
+        "macro_prd_std": 5.236589366784664,
+        "macro_rmse_mean": 0.3480543911399797,
+        "macro_rmse_std": 0.11018032760536405,
+        "macro_snr_mean": 8.173252531111386,
+        "macro_snr_std": 1.0505697683203048
+      },
+      "CNN": {
+        "num_subjects": 15,
+        "macro_prd_mean": 19.72806566226057,
+        "macro_prd_std": 1.6397018035477682,
+        "macro_rmse_mean": 0.15613427523900716,
+        "macro_rmse_std": 0.05321966166810508,
+        "macro_snr_mean": 14.452664883780905,
+        "macro_snr_std": 0.7397806666887562
+      }
+    },
+    "128": {
+      "OMP": {
+        "num_subjects": 15,
+        "macro_prd_mean": 4.246256145490003,
+        "macro_prd_std": 1.2474997497129536,
+        "macro_rmse_mean": 0.03216872282927254,
+        "macro_rmse_std": 0.009104752436140952,
+        "macro_snr_mean": 31.345670248949407,
+        "macro_snr_std": 2.1238734853119143
+      },
+      "CNN": {
+        "num_subjects": 15,
+        "macro_prd_mean": 19.775758318657402,
+        "macro_prd_std": 1.4309750240369452,
+        "macro_rmse_mean": 0.15645995110610403,
+        "macro_rmse_std": 0.053697075450348714,
+        "macro_snr_mean": 14.417694026222481,
+        "macro_snr_std": 0.640361059731913
+      }
+    }
+  },
+  "relative_reduction_m77": 54.13260609641584,
+  "hardware_acceptance": {
+    "encoder_p95": {
+      "status": "PASS",
+      "target_ms": 100.0,
+      "samples_by_M": {
+        "51": 1000,
+        "77": 1000,
+        "128": 1000
+      }
+    },
+    "additional_ram": {
+      "status": "PASS",
+      "target_bytes": 65536,
+      "value_bytes": 3976.0
+    },
+    "quantization": {
+      "status": "PASS",
+      "bit_exact": false,
+      "max_lsb_diff": 1.0
+    },
+    "packet_crc": {
+      "status": "PASS",
+      "received_packets": 3216
+    },
+    "packet_size": {
+      "status": "PASS"
+    },
+    "CRC_implementation": {
+      "status": "PASS"
+    },
+    "unknown_config_rejection": {
+      "status": "PASS"
+    }
+  }
+}

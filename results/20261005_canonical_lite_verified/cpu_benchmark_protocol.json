@@ -1,0 +1,10 @@
+{
+  "batch_size": 1,
+  "threads": 1,
+  "warmup": 100,
+  "samples_per_method_per_session": 1000,
+  "sessions": 3,
+  "method_order": "rotated by session",
+  "device": "cpu",
+  "same_input_indices": true
+}

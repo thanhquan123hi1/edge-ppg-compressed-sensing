@@ -1,0 +1,57 @@
+{
+  "notebook": "D:\\IOT\\CuoiKy\\PPG_CS_End_to_End_EDA_RESTRUCTURED.ipynb",
+  "notebook_sha256": "8bc25363aa6f4165ade576971d1a08fe30c6493995f5d268e8d15d2f92658ff7",
+  "cells": 101,
+  "code_cells": 78,
+  "layout_preserved": true,
+  "original_core_definitions_preserved": true,
+  "supplied_checkpoint_count": 45,
+  "strict_checkpoint_count": 45,
+  "canonical_validation_replays": 45,
+  "all_checkpoint_hashes_unchanged": true,
+  "training_complete_verified": true,
+  "actual_prediction_files": 110,
+  "cpu_samples": 27000,
+  "hardware_session": "20261005T104005Z_7611453d",
+  "hardware_benchmark_frames": 3000,
+  "host_end_to_end_scope": "instrumented UART replay raw chunk write to Lite output",
+  "lite_quality": [
+    {
+      "M": 51,
+      "status": "COMPLETE",
+      "runs_complete": 15,
+      "runs_expected": 15,
+      "subjects_complete": 15,
+      "macro_prd": 10.062380490166197,
+      "subject_std": 1.8397162442517323,
+      "rmse": 0.0792506504237407,
+      "snr_rec": 20.83459898999085,
+      "comparison_scope": "ĐỦ KẾT QUẢ — CÙNG PROTOCOL"
+    },
+    {
+      "M": 77,
+      "status": "COMPLETE",
+      "runs_complete": 15,
+      "runs_expected": 15,
+      "subjects_complete": 15,
+      "macro_prd": 2.329666670759227,
+      "subject_std": 0.4751091546441363,
+      "rmse": 0.0185204774431692,
+      "snr_rec": 33.45196810510211,
+      "comparison_scope": "ĐỦ KẾT QUẢ — CÙNG PROTOCOL"
+    },
+    {
+      "M": 128,
+      "status": "COMPLETE",
+      "runs_complete": 15,
+      "runs_expected": 15,
+      "subjects_complete": 15,
+      "macro_prd": 1.1921075388695987,
+      "subject_std": 0.2326560480133417,
+      "rmse": 0.0096714877229376,
+      "snr_rec": 39.12809401279009,
+      "comparison_scope": "ĐỦ KẾT QUẢ — CÙNG PROTOCOL"
+    }
+  ],
+  "execution_seconds": 3687.186167899985
+}

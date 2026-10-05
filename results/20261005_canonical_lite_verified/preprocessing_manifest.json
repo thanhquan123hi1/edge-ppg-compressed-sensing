@@ -1,0 +1,159 @@
+{
+  "fingerprint": "f1102025cdd39bbae2341cb748edfcdcbb540a608372dff63002744d49e16481",
+  "contract": {
+    "numerical": {
+      "fs": 64,
+      "N": 256,
+      "H": 128,
+      "drop": 320,
+      "matrix_seed": 42,
+      "protocol": "cs-int16-upward-half-away-v2",
+      "filter_dtype": "float32",
+      "sos": [
+        [
+          0.08782128244638443,
+          0.17564256489276886,
+          0.08782128244638443,
+          1.0,
+          -1.012907862663269,
+          0.3812299370765686
+        ],
+        [
+          1.0,
+          -2.0,
+          1.0,
+          1.0,
+          -1.9313721656799316,
+          0.933970034122467
+        ]
+      ],
+      "normalization": "train-samples-float64-statistics-float32-application"
+    },
+    "raw_sha256": {
+      "S1": "e4a35dfe711368d447a2a383e5dd98191594928ccb2ca8deeeda06cd6e628c14",
+      "S2": "5655a60bbc7c5e560f64bc238218284613c9528ae9e3c5517946d476fa8e4399",
+      "S3": "0fe923d3a7e7fd60e5245e655a9c1d0a1c2c106ea3128e2dfe79ba0f2266f799",
+      "S4": "539c0f112507a5b8b21d90f648f932ad4ba8acaeb76fb3b06d1d06b033cafda2",
+      "S5": "e9593717aa524e4c0ab37ba5603f7e6190fff1385251d5a9615342f38f55afb1",
+      "S6": "c9fece7217d0ffd648e55ec9d139237bfb37b9958efb6cff072d438e46ba34e4",
+      "S7": "ea669d42137d1a90127bb7be3c5c5613f636a00814cd04c604c42586868b0390",
+      "S8": "4072e197ff7ddbd184d721b6643215dd7101af93e1a9c00cbcca7827c94b4969",
+      "S9": "68853d6ae4cc5d22dcf0b3a693a367305a6c28287cf5248a99c6f0f49c65cf56",
+      "S10": "bed48c8e38bdaed8fbd5e3f662b49d240119a98dfe4619e4902931a0335f4e4f",
+      "S11": "5c5c4c0308478df56e2f464810fa949abbf25450c9c934edc5cb00beb7cecff5",
+      "S12": "a7a5c802f0005a633c86956fe92dfe60b350f80b27bd2509880e50582dedd406",
+      "S13": "7ca31b91bf1825083707a4be1ce65612d864c7effa077d6780154419df5d9813",
+      "S14": "c192b9090ac3c0107000d8424c038ccd11292cded1f6c46c97e2cae85c725392",
+      "S15": "1f080cbce67be7a0638787e745c3a73a50bab7db4be0da3b6c84288d42aa3497"
+    }
+  },
+  "records": [
+    {
+      "subject": "S1",
+      "raw_samples": 589568,
+      "cached_samples": 589248,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S2",
+      "raw_samples": 525120,
+      "cached_samples": 524800,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S3",
+      "raw_samples": 559424,
+      "cached_samples": 559104,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S4",
+      "raw_samples": 585600,
+      "cached_samples": 585280,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S5",
+      "raw_samples": 595520,
+      "cached_samples": 595200,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S6",
+      "raw_samples": 336000,
+      "cached_samples": 335680,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S7",
+      "raw_samples": 597952,
+      "cached_samples": 597632,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S8",
+      "raw_samples": 517120,
+      "cached_samples": 516800,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S9",
+      "raw_samples": 547840,
+      "cached_samples": 547520,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S10",
+      "raw_samples": 681472,
+      "cached_samples": 681152,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S11",
+      "raw_samples": 579072,
+      "cached_samples": 578752,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S12",
+      "raw_samples": 506496,
+      "cached_samples": 506176,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S13",
+      "raw_samples": 584704,
+      "cached_samples": 584384,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S14",
+      "raw_samples": 573312,
+      "cached_samples": 572992,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    },
+    {
+      "subject": "S15",
+      "raw_samples": 508096,
+      "cached_samples": 507776,
+      "nonfinite_raw": 0,
+      "nonfinite_filtered": 0
+    }
+  ],
+  "cache_sha256": "ec79568903fae91da095fc7a3d1d4d9dfddabc103d55b0e8011f7a9110bfb87e",
+  "schema": 2
+}

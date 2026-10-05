@@ -1,0 +1,5 @@
+﻿Chỉ tiêu kỹ thuật,Mức nén khảo sát,Giá trị thực nghiệm đạt được,Ngưỡng mục tiêu,Kết luận
+1. Chất lượng tái tạo (PRD <= 15%),M=77 (cấu hình mục tiêu),CNN=19.7281%; OMP=43.0111%,PRD <= 15%,CHƯA ĐẠT
+2. Mức giảm PRD tương đối CNN so với OMP,M=77,54.1326%,Giảm >=10%,ĐẠT
+3. Thời gian mã hóa ESP32,"Ba M, encoder_us thật, 1000 mẫu/M","{'status': 'PASS', 'target_ms': 100.0, 'samples_by_M': {'51': 1000, '77': 1000, '128': 1000}}",p95 <100 ms,PASS
+4. RAM tăng thêm so baseline replay,ESP32-S3 trên COM5,"{'status': 'PASS', 'target_bytes': 65536, 'value_bytes': 3976.0}",<64 KiB,PASS

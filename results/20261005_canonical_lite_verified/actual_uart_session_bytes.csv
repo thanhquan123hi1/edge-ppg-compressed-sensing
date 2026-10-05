@@ -1,0 +1,3 @@
+Direction,Bytes,SHA256,Scope
+tx,1679696,fa35fa2c491d45a974c2a8e3fa3c91f817d424ece65c18284e7ebe4aae7356b1,"toàn phiên UART, gồm lệnh, warmup, trace và debug"
+rx,1038105,575083b0ff93121e96a56ffb9640626c471af5d1f5e2f1d3427c2064075e56bc,"toàn phiên UART, gồm lệnh, warmup, trace và debug"

@@ -1,0 +1,7 @@
+﻿M,Decoder,Tổng cửa sổ test,Số seed,Dừng sớm OMP,Tái tạo chính xác,Cửa sổ không hợp lệ,Cửa sổ năng lượng 0,Tỷ lệ cắt biên (%),Lỗi suy biến số học,Số lượng NaN,Số lượng Inf,Trạng thái
+51,OMP–DCT,64687,1,0,0,0,0,0.0000%,0,0,0,KHÔNG GHI NHẬN NaN/Inf/LỖI HẠNG
+51,CNN 1D,194061,3,0,0,0,0,0.0000%,0,0,0,KHÔNG GHI NHẬN NaN/Inf/LỖI HẠNG
+77,OMP–DCT,64687,1,0,0,0,0,0.0000%,0,0,0,KHÔNG GHI NHẬN NaN/Inf/LỖI HẠNG
+77,CNN 1D,194061,3,0,0,0,0,0.0000%,0,0,0,KHÔNG GHI NHẬN NaN/Inf/LỖI HẠNG
+128,OMP–DCT,64687,1,0,0,0,0,0.0000%,0,0,0,KHÔNG GHI NHẬN NaN/Inf/LỖI HẠNG
+128,CNN 1D,194061,3,0,0,0,0,0.0000%,0,0,0,KHÔNG GHI NHẬN NaN/Inf/LỖI HẠNG

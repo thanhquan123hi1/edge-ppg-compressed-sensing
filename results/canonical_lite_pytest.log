@@ -1,0 +1,9 @@
+........................................................................ [ 39%]
+........................................................................ [ 79%]
+......................................                                   [100%]
+============================== warnings summary ===============================
+tests/test_protocol_lite_evaluation.py::test_training_history_plot_runs_before_experiment_loop_defines_globals
+  <string>:11: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+182 passed, 1 warning in 15.49s

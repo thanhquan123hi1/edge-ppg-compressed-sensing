@@ -1,0 +1,57 @@
+[
+  {
+    "subject": "S1",
+    "identity_equal": true,
+    "raw_start_sample": 0,
+    "raw_samples": 589568,
+    "replayed_samples": 132544,
+    "transient_sent_samples": 320,
+    "source_sha256": "e4a35dfe711368d447a2a383e5dd98191594928ccb2ca8deeeda06cd6e628c14",
+    "raw_array_sha256": "54e2d3846289f113ffd1f698291a18a1166d89d32b55aa60a60111b871223d8e",
+    "replayed_sha256": "54e5e2da81ac6b9fb3bf795822ec74648e633c19e628cd32963fb05c849fddf4"
+  },
+  {
+    "subject": "S4",
+    "identity_equal": true,
+    "raw_start_sample": 0,
+    "raw_samples": 585600,
+    "replayed_samples": 1472,
+    "transient_sent_samples": 320,
+    "source_sha256": "539c0f112507a5b8b21d90f648f932ad4ba8acaeb76fb3b06d1d06b033cafda2",
+    "raw_array_sha256": "9689818492d5541085c5ec29bb299cf15038c21c4580ef3eae0a6fd4240b0f07",
+    "replayed_sha256": "b1aeb3ea6166a2b9a61b5da5d2ecc1f014796a06ffc0f6b04096056b16442a18"
+  },
+  {
+    "subject": "S7",
+    "identity_equal": true,
+    "raw_start_sample": 0,
+    "raw_samples": 597952,
+    "replayed_samples": 1472,
+    "transient_sent_samples": 320,
+    "source_sha256": "ea669d42137d1a90127bb7be3c5c5613f636a00814cd04c604c42586868b0390",
+    "raw_array_sha256": "183faa2bf7d1c6edc159838a0ac8fcc823efa84f9aff806566d196f75d2ea1a3",
+    "replayed_sha256": "c1be8b9944ab950df9b579bb389e80176ae0c7ff2760f91def7c7f921e5fc3e7"
+  },
+  {
+    "subject": "S10",
+    "identity_equal": true,
+    "raw_start_sample": 0,
+    "raw_samples": 681472,
+    "replayed_samples": 1472,
+    "transient_sent_samples": 320,
+    "source_sha256": "bed48c8e38bdaed8fbd5e3f662b49d240119a98dfe4619e4902931a0335f4e4f",
+    "raw_array_sha256": "33024979521f39719040fcea758a1f0e6d4672f0c1bacced83c28a3e6b63ac16",
+    "replayed_sha256": "71fdba2048eb0e12c26b52ab1f54d66d52b98cb5c869b10afddf05a088cfcf80"
+  },
+  {
+    "subject": "S13",
+    "identity_equal": true,
+    "raw_start_sample": 0,
+    "raw_samples": 584704,
+    "replayed_samples": 1472,
+    "transient_sent_samples": 320,
+    "source_sha256": "7ca31b91bf1825083707a4be1ce65612d864c7effa077d6780154419df5d9813",
+    "raw_array_sha256": "3126b091bb31ac388bec0421d8b1cadb5f5afe32ccda45475bb74835c9bb0bf2",
+    "replayed_sha256": "5555dab8f54ff80b76105f503e5a65b2b0ea7a5cc147e1a20910a2a3f355c00d"
+  }
+]

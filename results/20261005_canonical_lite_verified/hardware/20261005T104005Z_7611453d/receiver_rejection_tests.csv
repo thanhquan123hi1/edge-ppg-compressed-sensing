@@ -1,0 +1,8 @@
+test,expected,actual,status,mutated_crc_valid,source
+unknown config_id,REJECT,REJECT,PASS,True,"Mutation of actual received packet; receiver test, no decoder"
+unsupported version,REJECT,REJECT,PASS,True,"Mutation of actual received packet; receiver test, no decoder"
+unsupported flags,REJECT,REJECT,PASS,True,"Mutation of actual received packet; receiver test, no decoder"
+nonpositive scale,REJECT,REJECT,PASS,True,"Mutation of actual received packet; receiver test, no decoder"
+nonfinite scale,REJECT,REJECT,PASS,True,"Mutation of actual received packet; receiver test, no decoder"
+wrong payload length,REJECT,REJECT,PASS,True,"Mutation of actual received packet; receiver test, no decoder"
+invalid CRC,REJECT,REJECT,PASS,False,"Mutation of actual received packet; receiver test, no decoder"

@@ -1,0 +1,79 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "python": "3.12.10",
+  "numpy": "2.2.6",
+  "scipy": "1.14.1",
+  "torch": "2.6.0+cu124",
+  "offline_inference_device": "cuda",
+  "offline_inference_gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "receiver_benchmark_device": "cpu",
+  "torch_threads": 1,
+  "blas": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-5b1ec8b915dfb81d11cebc0788069d2d.dll",
+      "version": "0.3.27.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    }
+  ],
+  "numerical_contract": {
+    "fs": 64,
+    "N": 256,
+    "H": 128,
+    "drop": 320,
+    "matrix_seed": 42,
+    "protocol": "cs-int16-upward-half-away-v2",
+    "filter_dtype": "float32",
+    "sos": [
+      [
+        0.08782128244638443,
+        0.17564256489276886,
+        0.08782128244638443,
+        1.0,
+        -1.012907862663269,
+        0.3812299370765686
+      ],
+      [
+        1.0,
+        -2.0,
+        1.0,
+        1.0,
+        -1.9313721656799316,
+        0.933970034122467
+      ]
+    ],
+    "normalization": "train-samples-float64-statistics-float32-application"
+  },
+  "test_disclosure": "Kết quả test phiên trước đã được xem; lần sửa này khóa nguyên kiến trúc và giao thức đánh giá theo đề cương, không tuyên bố holdout chưa từng xem."
+}

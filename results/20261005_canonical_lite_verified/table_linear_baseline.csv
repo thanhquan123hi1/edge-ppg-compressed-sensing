@@ -1,0 +1,4 @@
+﻿Decoder,Macro-PRD (%),Subject Std,RMSE,SNRrec (dB)
+OMP–DCT,43.01,±5.24,0.3481,8.17
+"Linear(77, 256)",2.49,±0.52,0.0198,32.88
+CNN 1D (Seed 11),19.86,±1.55,0.1565,14.39

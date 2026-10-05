@@ -1,0 +1,13 @@
+{
+  "change": "Display label only; no experiment rerun",
+  "old_label": "Đang đo...",
+  "new_label": "Chưa đo tại bước này",
+  "changed_cells": [
+    64,
+    69
+  ],
+  "notebook_sha256_before": "0c3d876239b7d0aef93aef8505b1f491b6ca245d86c37fa0fecd8126c5cc14f2",
+  "notebook_sha256_after": "8bc25363aa6f4165ade576971d1a08fe30c6493995f5d268e8d15d2f92658ff7",
+  "all_other_content_and_execution_counts_unchanged": true,
+  "backup": "D:\\IOT\\CuoiKy\\backups\\20261005_before_table8_label_update\\PPG_CS_End_to_End_EDA_RESTRUCTURED.ipynb"
+}

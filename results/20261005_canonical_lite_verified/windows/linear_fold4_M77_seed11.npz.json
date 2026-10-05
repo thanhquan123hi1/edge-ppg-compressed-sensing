@@ -1,0 +1,9 @@
+{
+  "fold": 4,
+  "M": 77,
+  "method": "linear",
+  "seed": 11,
+  "data_sha256": "ec79568903fae91da095fc7a3d1d4d9dfddabc103d55b0e8011f7a9110bfb87e",
+  "result_sha256": "c829d4ff1914097007a433de6f6ddda8874f9c415d7cccc4e7369248cfdcdf43",
+  "checkpoint_sha256": "46c141cdc7c337ff58b6c586f5b709de139ce77f5946ea2a96b7c85a446bf277"
+}

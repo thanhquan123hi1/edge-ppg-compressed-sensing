@@ -1,0 +1,277 @@
+C:\Users\phung\AppData\Local\Programs\Python\Python312\Lib\site-packages\zmq\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+CELL_START 3 tasks=['nạp thư viện', 'khóa luồng số học'] elapsed=1.8s
+CELL_DONE 3 elapsed=5.4s
+CELL_START 4 tasks=['cấu hình dự án', 'đường dẫn và chế độ chạy'] elapsed=5.4s
+CELL_DONE 4 elapsed=5.5s
+CELL_START 5 tasks=['thiết bị và random seed', 'định dạng hình'] elapsed=5.5s
+CELL_DONE 5 elapsed=6.7s
+CELL_START 6 tasks=['bộ đếm lỗi', 'báo và lưu môi trường'] elapsed=6.7s
+     : 5.0 giây đầu (320 mẫu) sau khởi tạo lọc với trạng thái zi = 0
+Chuẩn hóa Z-Score     : Tuyệt đối theo tập Train của từng Fold (mu_train, sigma_train), theo train; kiểm tra tách người
+Lượng tử hóa          : INT16 đối xứng [-32767, 32767] với thang đo động delta = max(|y|)/32767 theo gói tin
+Giao thức Gói tin     : 16 bytes Header (phiên bản, flags, config_id, frame_index, scale_delta, CRC32)
+Cấu hình Phân chia    : 5-Fold Subject-Wise Cross Validation (15 đối tượng S1 - S15)
+RESUME_IF_CHECKPOINT  : True
+FAST_DEBUG            : False
+=================================================================
+Số luồng PyTorch: 1 | BLAS: [{'user_api': 'blas', 'internal_api': 'openblas', 'num_threads': 1, 'prefix': 'libscipy_openblas', 'filepath': 'C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll', 'version': '0.3.29', 'threading_layer': 'pthreads', 'architecture': 'Haswell'}, {'user_api': 'blas', 'internal_api': 'openblas', 'num_threads': 1, 'prefix': 'libscipy_openblas', 'filepath': 'C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-5b1ec8b915dfb81d11cebc0788069d2d.dll', 'version': '0.3.27.dev', 'threading_layer': 'pthreads', 'architecture': 'Haswell'}, {'user_api': 'openmp', 'internal_api': 'openmp', 'num_threads': 1, 'prefix': 'libiomp', 'filepath': 'C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll', 'version': None}, {'user_api': 'openmp', 'internal_api': 'openmp', 'num_threads': 1, 'prefix': 'libiomp', 'filepath': 'C:\\Users\\phung\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll', 'version': None}]
+
+CELL_DONE 6 elapsed=6.8s
+CELL_START 8 tasks=['nạp dữ liệu gốc', 'xác minh nguồn và số người'] elapsed=6.8s
+Kiểm chứng nguồn BVP thô. Đang đọc trực tiếp từ các file pickle PPG-DaLiA: E:/STUDY/DATASET/PPG_FieldStudy
+
+  Đã nạp S1: 589568 mẫu thô
+
+  Đã nạp S2: 525120 mẫu thô
+
+  Đã nạp S3: 559424 mẫu thô
+
+  Đã nạp S4: 585600 mẫu thô
+
+  Đã nạp S5: 595520 mẫu thô
+
+  Đã nạp S6: 336000 mẫu thô
+
+  Đã nạp S7: 597952 mẫu thô
+
+  Đã nạp S8: 517120 mẫu thô
+
+  Đã nạp S9: 547840 mẫu thô
+
+  Đã nạp S10: 681472 mẫu thô
+
+  Đã nạp S11: 579072 mẫu thô
+
+  Đã nạp S12: 506496 mẫu thô
+
+  Đã nạp S13: 584704 mẫu thô
+
+  Đã nạp S14: 573312 mẫu thô
+
+  Đã nạp S15: 508096 mẫu thô
+
+Đã lưu bộ nhớ đệm BVP thô tại D:\IOT\CuoiKy\data\raw_bvp.npz
+Kiểm tra tính toàn vẹn: Đầy đủ 15 đối tượng S1-S15 (S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15)
+
+CELL_DONE 8 elapsed=89.8s
+CELL_START 9 tasks=['thống kê raw', 'hiển thị Bảng 1'] elapsed=89.8s
+
+BẢNG 1: THỐNG KÊ MÔ TẢ TẬP DỮ LIỆU BVP THÔ PPG-DaLiA (15 ĐỐI TƯỢNG)
+
+CELL_DONE 9 elapsed=89.8s
+CELL_START 10 tasks=['vẽ Hình 1'] elapsed=89.8s
+CELL_DONE 10 elapsed=90.6s
+CELL_START 12 tasks=['định nghĩa lọc', 'hàm nạp cache'] elapsed=90.6s
+CELL_DONE 12 elapsed=90.6s
+CELL_START 13 tasks=['nạp cache đã xác minh', 'thống kê sau lọc'] elapsed=90.6s
+
+BẢNG 1B: THỐNG KÊ MÔ TẢ TÍN HIỆU BVP SAU LỌC NHÂN QUẢ VÀ BỎ QUÁ ĐỘ (15 ĐỐI TƯỢNG)
+
+CELL_DONE 13 elapsed=109.9s
+CELL_START 14 tasks=['vẽ Hình 2'] elapsed=109.9s
+CELL_DONE 14 elapsed=110.3s
+CELL_START 15 tasks=['kiểm toán quá độ trên train', 'hiển thị bảng chi tiết và tổng hợp'] elapsed=110.3s
+Khởi tạo lại trên tín hiệu train thật tại 60/120/180s, đối chiếu trạng thái chạy liên tục.
+Tiêu chí chẩn đoán công bố: PRD cửa sổ 5–9s sau reset <=1%; đây là kiểm toán hậu nghiệm.
+
+CELL_DONE 15 elapsed=110.4s
+CELL_START 17 tasks=['khóa fold và chuẩn hóa', 'hiển thị Bảng 2'] elapsed=110.4s
+BẢNG 2: PHÂN CHIA 5-FOLD SUBJECT-WISE VÀ THỐNG KÊ CỬA SỔ DỮ LIỆU
+
+CELL_DONE 17 elapsed=111.3s
+CELL_START 18 tasks=['vẽ Hình 3'] elapsed=111.3s
+CELL_DONE 18 elapsed=111.5s
+CELL_START 19 tasks=['xuất registry', 'hash dữ liệu'] elapsed=111.5s
+CELL_DONE 19 elapsed=111.6s
+CELL_START 20 tasks=['xử lý trong mục hiện tại'] elapsed=111.6s
+--- TIẾN HÀNH KIỂM TRA TÍNH TOÀN VẸN (SANITY CHECKS) ---
+
+-> KẾT QUẢ SANITY CHECKS: TẤT CẢ 5 KIỂM TRA ĐỀU VƯỢT QUA! (ALL PASSED)
+Cửa sổ reference không hữu hạn đã ghi nhận: {1: {'train': 0, 'val': 0, 'test': 0}, 2: {'train': 0, 'val': 0, 'test': 0}, 3: {'train': 0, 'val': 0, 'test': 0}, 4: {'train': 0, 'val': 0, 'test': 0}, 5: {'train': 0, 'val': 0, 'test': 0}}
+
+CELL_DONE 20 elapsed=112.0s
+CELL_START 22 tasks=['phép chiếu', 'bit packing'] elapsed=112.0s
+CELL_DONE 22 elapsed=112.0s
+CELL_START 23 tasks=['tạo ba ma trận', 'xuất bin và hash'] elapsed=112.0s
+Cấu hình M =  51: Dung lượng Flash = 1632 bytes | SHA256 = bfa128a0d920ebee78f1b69972bb04770fb55bbacae8432568809298744a1c7a
+Cấu hình M =  77: Dung lượng Flash = 2464 bytes | SHA256 = b934ee46fb659926acc127aa9bb9a090e7b9b885c1a1f4dc32b884f0af3ea9ed
+Cấu hình M = 128: Dung lượng Flash = 4096 bytes | SHA256 = eaaa2ac42a1b7d4c1a051dd2aac0c3424bbdd270dc1e9ad7e03451a893c8aeac
+
+CELL_DONE 23 elapsed=112.1s
+CELL_START 24 tasks=['xuất header firmware'] elapsed=112.1s
+Đã xuất C header đồng bộ cho ESP32 tại: D:\IOT\CuoiKy\exports\20261005_canonical_lite_verified\cs_matrices.h
+
+CELL_DONE 24 elapsed=112.1s
+CELL_START 26 tasks=['làm tròn', 'lượng tử'] elapsed=112.1s
+CELL_DONE 26 elapsed=112.1s
+CELL_START 27 tasks=['đóng gói', 'kiểm CRC và giải lượng tử'] elapsed=112.1s
+CELL_DONE 27 elapsed=112.1s
+CELL_START 28 tasks=['sai số cửa sổ mẫu', 'vẽ Hình 4'] elapsed=112.1s
+-> Thống kê lượng tử hóa: Sai số tối đa = 0.00002638 (nhỏ hơn Delta = 0.00005278), Cắt biên = 0
+
+CELL_DONE 28 elapsed=112.6s
+CELL_START 30 tasks=['DCT chuẩn', 'chọn mẫu train cân bằng'] elapsed=112.6s
+-> DCT & SVD Subspace Analysis: Lấy mẫu cân bằng 1350 cửa sổ (150 cửa sổ/subject qua 9 đối tượng train của Fold 1, seed=42)
+
+CELL_DONE 30 elapsed=112.6s
+CELL_START 31 tasks=['năng lượng DCT'] elapsed=112.6s
+CELL_DONE 31 elapsed=112.7s
+CELL_START 32 tasks=['phổ SVD'] elapsed=112.7s
+CELL_DONE 32 elapsed=112.7s
+CELL_START 33 tasks=['vẽ Hình 5', 'diễn giải giới hạn'] elapsed=112.7s
+-> Phân tích độ nén thưa DCT: Cần 12 hệ số để giữ 90% năng lượng, 17 hệ số để giữ 95%, và 29 hệ số để giữ 99% năng lượng tín hiệu PPG.
+-> Phân tích không gian con SVD: Hạng hiệu dụng để giữ 90% năng lượng là r=18, 95% là r=24, và 99% là r=36.
+   Đây là mô tả năng lượng thực nghiệm trên Train Fold 1; Butterworth không phải bộ lọc cắt lý tưởng.
+   r99 < M không tự chứng minh hạng hoặc điều kiện số của Phi trên không gian con, cũng không bảo đảm sai số test.
+
+CELL_DONE 33 elapsed=113.3s
+CELL_START 35 tasks=['xử lý trong mục hiện tại'] elapsed=113.3s
+-> Kiểm thử đơn vị OMP với QR tăng dần tái trực chuẩn hóa hai lần trên tín hiệu 5-sparse: THÀNH CÔNG!
+   PRD = 0.0019% < 1.0% | Điều kiện dừng: 'max_iter' sau 16 vòng lặp.
+
+CELL_DONE 35 elapsed=113.3s
+CELL_START 37 tasks=['ConvBlock', 'CNN gốc'] elapsed=113.3s
+CELL_DONE 37 elapsed=113.3s
+CELL_START 38 tasks=['Linear phụ', 'kiểm tham số và shape'] elapsed=113.3s
+Cấu hình CNN 1D M =  51: Số tham số = 34049 | Khớp hoàn toàn đặc tả Bảng 4 Đề cương!
+Cấu hình CNN 1D M =  77: Số tham số = 40705 | Khớp hoàn toàn đặc tả Bảng 4 Đề cương!
+Cấu hình CNN 1D M = 128: Số tham số = 53761 | Khớp hoàn toàn đặc tả Bảng 4 Đề cương!
+Cấu hình Linear Baseline M =  77: Số tham số = 19968 | Khớp hoàn toàn đặc tả Đề cương!
+
+CELL_DONE 38 elapsed=113.6s
+CELL_START 39 tasks=['xử lý trong mục hiện tại'] elapsed=113.6s
+ResLinCNN_Lite M=51: 18193 tham số; shape/zero-head đúng.
+ResLinCNN_Lite M=77: 24849 tham số; shape/zero-head đúng.
+ResLinCNN_Lite M=128: 37905 tham số; shape/zero-head đúng.
+
+CELL_DONE 39 elapsed=113.7s
+CELL_START 41 tasks=['chỉ số cửa sổ', 'tổng hợp theo người'] elapsed=113.7s
+CELL_DONE 41 elapsed=113.7s
+CELL_START 42 tasks=['macro', 'giới hạn chỉ số'] elapsed=113.7s
+Chỉ số Float64 khi tổng hợp; prediction lỗi được ghi nhận, SNR của tái tạo chính xác là +inf.
+
+CELL_DONE 42 elapsed=113.7s
+CELL_START 44 tasks=['ứng viên K', 'hàm chọn validation'] elapsed=113.7s
+CELL_DONE 44 elapsed=113.8s
+CELL_START 45 tasks=['tuning Fold1'] elapsed=113.8s
+Dùng TOÀN BỘ cửa sổ validation; QR path dùng chung giữa các K.
+Đang quét siêu tham số K_max trên tập Validation của Fold 1...
+
+  -> Cấu hình M =  51: K_max tối ưu =  8 (Validation Macro-PRD = 72.81%)
+
+  -> Cấu hình M =  77: K_max tối ưu = 16 (Validation Macro-PRD = 45.69%)
+
+  -> Cấu hình M = 128: K_max tối ưu = 64 (Validation Macro-PRD = 4.66%)
+
+CELL_DONE 45 elapsed=158.5s
+CELL_START 46 tasks=['vẽ Hình 6'] elapsed=158.5s
+CELL_DONE 46 elapsed=158.7s
+CELL_START 48 tasks=['kiểm và đọc checkpoint', 'hàm train có provenance'] elapsed=158.7s
+CELL_DONE 48 elapsed=158.8s
+CELL_START 49 tasks=['đọc lịch sử thật', 'vẽ Hình 7'] elapsed=158.8s
+Lịch sử checkpoint thật: 76 epochs; epoch chọn=66; validation PRD=20.3061%
+
+CELL_DONE 49 elapsed=160.5s
+CELL_START 50 tasks=['Kiểm tra đủ 45 contract/fingerprint và lịch sử hoàn tất', 'Tái hiện validation trên cache v2 trước test', 'Xuất protocol và nguồn Colab đã cung cấp'] elapsed=160.5s
+CANONICAL_LITE fold=1 M=51 seed=11: validation=10.907718% delta=7.77083658e-07 pp
+
+CANONICAL_LITE fold=1 M=51 seed=22: validation=11.153697% delta=9.26952524e-07 pp
+
+CANONICAL_LITE fold=1 M=51 seed=33: validation=10.988163% delta=6.08127793e-07 pp
+
+CANONICAL_LITE fold=1 M=77 seed=11: validation=2.364803% delta=4.49703701e-07 pp
+
+CANONICAL_LITE fold=1 M=77 seed=22: validation=2.589597% delta=5.76226974e-07 pp
+
+CANONICAL_LITE fold=1 M=77 seed=33: validation=2.288842% delta=8.01216972e-07 pp
+
+CANONICAL_LITE fold=1 M=128 seed=11: validation=1.199245% delta=9.04686619e-08 pp
+
+CANONICAL_LITE fold=1 M=128 seed=22: validation=0.950963% delta=2.52915592e-07 pp
+
+CANONICAL_LITE fold=1 M=128 seed=33: validation=1.435537% delta=6.07888373e-08 pp
+
+CANONICAL_LITE fold=2 M=51 seed=11: validation=10.919403% delta=9.70467738e-07 pp
+
+CANONICAL_LITE fold=2 M=51 seed=22: validation=11.012151% delta=5.11405744e-07 pp
+
+CANONICAL_LITE fold=2 M=51 seed=33: validation=10.978965% delta=9.3678257e-07 pp
+
+CANONICAL_LITE fold=2 M=77 seed=11: validation=2.616454% delta=5.88769753e-07 pp
+
+CANONICAL_LITE fold=2 M=77 seed=22: validation=2.458523% delta=6.496629e-07 pp
+
+CANONICAL_LITE fold=2 M=77 seed=33: validation=2.663334% delta=1.43833963e-06 pp
+
+CANONICAL_LITE fold=2 M=128 seed=11: validation=0.988375% delta=2.32893093e-07 pp
+
+CANONICAL_LITE fold=2 M=128 seed=22: validation=1.206559% delta=1.51314868e-07 pp
+
+CANONICAL_LITE fold=2 M=128 seed=33: validation=1.028826% delta=2.27591186e-07 pp
+
+CANONICAL_LITE fold=3 M=51 seed=11: validation=9.050540% delta=2.72723049e-07 pp
+
+CANONICAL_LITE fold=3 M=51 seed=22: validation=9.354440% delta=5.52437514e-07 pp
+
+CANONICAL_LITE fold=3 M=51 seed=33: validation=9.264412% delta=1.36697089e-06 pp
+
+CANONICAL_LITE fold=3 M=77 seed=11: validation=2.244835% delta=2.47643706e-07 pp
+
+CANONICAL_LITE fold=3 M=77 seed=22: validation=2.066536% delta=8.74080788e-07 pp
+
+CANONICAL_LITE fold=3 M=77 seed=33: validation=2.037661% delta=8.44937711e-08 pp
+
+CANONICAL_LITE fold=3 M=128 seed=11: validation=1.239640% delta=1.89190864e-07 pp
+
+CANONICAL_LITE fold=3 M=128 seed=22: validation=0.822721% delta=1.70432013e-07 pp
+
+CANONICAL_LITE fold=3 M=128 seed=33: validation=1.066116% delta=1.47623748e-07 pp
+
+CANONICAL_LITE fold=4 M=51 seed=11: validation=8.632995% delta=6.78340086e-07 pp
+
+CANONICAL_LITE fold=4 M=51 seed=22: validation=9.181317% delta=1.00852002e-08 pp
+
+CANONICAL_LITE fold=4 M=51 seed=33: validation=9.423970% delta=9.20256074e-07 pp
+
+CANONICAL_LITE fold=4 M=77 seed=11: validation=2.014866% delta=3.97889849e-07 pp
+
+CANONICAL_LITE fold=4 M=77 seed=22: validation=2.186128% delta=3.52811805e-07 pp
+
+CANONICAL_LITE fold=4 M=77 seed=33: validation=2.271888% delta=1.38975065e-07 pp
+
+CANONICAL_LITE fold=4 M=128 seed=11: validation=1.250790% delta=8.40035477e-08 pp
+
+CANONICAL_LITE fold=4 M=128 seed=22: validation=1.230462% delta=2.9293056e-08 pp
+
+CANONICAL_LITE fold=4 M=128 seed=33: validation=1.488728% delta=4.90791578e-08 pp
+
+CANONICAL_LITE fold=5 M=51 seed=11: validation=10.174185% delta=1.1441689e-06 pp
+
+CANONICAL_LITE fold=5 M=51 seed=22: validation=9.965732% delta=1.06876689e-06 pp
+
+CANONICAL_LITE fold=5 M=51 seed=33: validation=9.761481% delta=4.87191206e-07 pp
+
+CANONICAL_LITE fold=5 M=77 seed=11: validation=2.488044% delta=8.71181629e-08 pp
+
+CANONICAL_LITE fold=5 M=77 seed=22: validation=2.170394% delta=1.62219115e-07 pp
+
+CANONICAL_LITE fold=5 M=77 seed=33: validation=2.491982% delta=1.05968414e-06 pp
+
+CANONICAL_LITE fold=5 M=128 seed=11: validation=1.822264% delta=3.16376123e-08 pp
+
+CANONICAL_LITE fold=5 M=128 seed=22: validation=1.180454% delta=1.5800713e-07 pp
+
+CANONICAL_LITE fold=5 M=128 seed=33: validation=1.078863% delta=3.43304944e-07 pp
+
+CELL_DONE 50 elapsed=603.2s
+CELL_START 51 tasks=['xử lý trong mục hiện tại'] elapsed=603.2s
+CELL_DONE 51 elapsed=603.8s
+CELL_START 53 tasks=['chuẩn bị đánh giá', 'hàm lưu từng cửa sổ'] elapsed=603.8s
+=================================================================
+TIẾN HÀNH ĐÁNH GIÁ THỰC NGHIỆM TRÊN TẬP TEST (15 ĐỐI TƯỢNG)
+=================================================================
+
+CELL_DONE 53 elapsed=603.9s
+CELL_START 54 tasks=['OMP validation', 'OMP test và lỗi số học'] elapsed=603.9s

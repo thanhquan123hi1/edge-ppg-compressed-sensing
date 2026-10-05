@@ -1,0 +1,20 @@
+# Local build outputs and Python/Jupyter caches
+**/.pio/
+**/__pycache__/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Large array artifacts are intentionally omitted from the LMS package
+results/**/*.npz

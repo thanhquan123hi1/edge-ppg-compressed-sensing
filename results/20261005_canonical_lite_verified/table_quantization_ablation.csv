@@ -1,0 +1,5 @@
+﻿Decoder,Input Mode,Macro-PRD (%),SNRrec (dB)
+OMP–DCT,Float32 (Không lượng tử),43.01,8.17
+OMP–DCT,INT16 (y_tilde giải lượng tử),43.01,8.17
+CNN 1D (Seed 11),Float32 (Không lượng tử),19.86,14.39
+CNN 1D (Seed 11),INT16 (y_tilde giải lượng tử),19.86,14.39

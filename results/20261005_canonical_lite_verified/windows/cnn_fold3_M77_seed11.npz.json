@@ -1,0 +1,9 @@
+{
+  "fold": 3,
+  "M": 77,
+  "method": "cnn",
+  "seed": 11,
+  "data_sha256": "ec79568903fae91da095fc7a3d1d4d9dfddabc103d55b0e8011f7a9110bfb87e",
+  "result_sha256": "3de7b8f14f08c56e6f74ac668afbb5baa317ad7fae65fc4f2070d4f595345ec5",
+  "checkpoint_sha256": "94fbe2abedc59bbc0317fa1b0640e3d42ba727605be4efe1eba9bccf53c126ce"
+}

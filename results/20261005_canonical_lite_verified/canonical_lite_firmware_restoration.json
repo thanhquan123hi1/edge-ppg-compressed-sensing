@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED_PHYSICAL_INFO",
+  "measurement_session_id": "20261005T104005Z_7611453d",
+  "port": "COM5",
+  "info": {
+    "CHIP": "ESP32-S3",
+    "REV": "0",
+    "CPU_MHZ": "240",
+    "FLASH_BYTES": "16777216",
+    "PSRAM_BYTES": "0",
+    "ARDUINO_VERSION": "2.0.17",
+    "ESP_IDF_VERSION": "v4.4.7-dirty",
+    "FIRMWARE_VERSION": "eda-raw-stream-crc-v1",
+    "INTERNAL_FREE": "366924",
+    "INTERNAL_MIN_FREE": "361668",
+    "INTERNAL_LARGEST": "335860",
+    "PSRAM_FREE": "0",
+    "STACK_FREE_BYTES": "6520",
+    "APP_BUFFER_BYTES": "4032",
+    "MATRICES_FLASH_BYTES": "8192",
+    "PROTOCOL_SHA": "476792f4ddd8176346f95bd380bc28f3a60e9a382aa02bc16c8913af2172547e",
+    "REGISTRY_SHA": "615d8c3853133be5745110a0912eb2ca605c9ca19b36c7dd2501671d51f04a91"
+  },
+  "scope": "fresh physical INFO query after encoder firmware upload; no benchmark rerun"
+}

@@ -1,0 +1,9 @@
+{
+  "data_sha256": "ec79568903fae91da095fc7a3d1d4d9dfddabc103d55b0e8011f7a9110bfb87e",
+  "checkpoint_sha256": "c120019689e1592efa5a3376ef4a4fa0d896c4df2c4030004d9721214edfad65",
+  "result_sha256": "ca6d12c15bdc5ac561e13df42a3969459952bb02019a05af2817f03898ccbb8c",
+  "fingerprint": "fac703d5cc1b13ee92bbaab545f0ac747e83f4041e49dbefeb5e7629ada6dfa7",
+  "quantized_values": 999460,
+  "clip_count": 0,
+  "decoder_failures": 0
+}
