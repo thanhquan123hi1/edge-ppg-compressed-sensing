@@ -15,6 +15,7 @@ venv/
 .idea/
 Thumbs.db
 Desktop.ini
+~$*
 
 # Large array artifacts are intentionally omitted from the LMS package
 results/**/*.npz

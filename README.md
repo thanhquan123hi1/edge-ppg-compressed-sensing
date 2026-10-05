@@ -11,13 +11,16 @@
 
 | Thành phần | File hoặc thư mục |
 |---|---|
-| Báo cáo | `PhungLeThanhQuan_C9_BaoCao_FINAL.docx` |
-| Notebook có output thực nghiệm đã lưu | `PhungLeThanhQuan_C9_Notebook.ipynb` |
+| Báo cáo PDF & Word | `PhungLeThanhQuan_C9_BaoCao_FINAL.pdf`, `PhungLeThanhQuan_C9_BaoCao_FINAL.docx` |
+| Slide thuyết trình | `PhungLeThanhQuan_C9_Slide_ThuyetTrinh_FINAL.pptx` |
+| Notebook có output thực nghiệm | `PhungLeThanhQuan_C9_Notebook.ipynb` |
+| Notebook Colab huấn luyện phụ | `ResLinCNN_Lite_Model_Mở Rộng (train riêng để tối ưu thời gian).ipynb` |
+| Module Python cốt lõi tái lập Notebook | `src/` (19 module thuật toán CS, OMP-DCT, CNN 1D, ESP32, kiểm toán) |
 | Các gói Python | `requirements.txt` |
 | Mã firmware và cấu hình PlatformIO | `esp32_firmware/src/`, `esp32_firmware/platformio.ini` |
 | Bảng số liệu, lịch sử huấn luyện và log đo | `results/20261005_canonical_lite_verified/` |
 
-Đây là bộ nộp phục vụ đọc báo cáo và xem kết quả đã lưu. Bộ nộp hiện không chứa các module Python hỗ trợ ở thư mục gốc, dữ liệu đầu vào hoặc trọng số trong `checkpoints/`; chỉ cài `requirements.txt` chưa đủ để chạy lại toàn bộ notebook.
+Bộ nộp đã bao gồm đầy đủ **19 module Python trong `src/`** để Notebook có thể import và chạy tái lập các thuật toán. Các trọng số huấn luyện (.pt) và tập dữ liệu lớn được lưu trữ trên Google Drive do giới hạn kích thước nộp bài.
 
 Để giảm dung lượng khi nộp LMS, 138 file `.npz` chứa dự đoán và mảng tín hiệu trong `results/` đã được loại khỏi bản này. Các bảng CSV, history, JSON, log và output nhúng trong notebook được giữ lại. Các đường dẫn tới `.npz` trong metadata là tham chiếu của lần chạy gốc; bản gọn không cung cấp các mảng đó để kiểm tra lại từng cửa sổ. File `.npz.json` chỉ là metadata, không thay thế file `.npz` đã loại.
 
