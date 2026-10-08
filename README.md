@@ -11,8 +11,8 @@
 
 | Thành phần | File hoặc thư mục |
 |---|---|
-| Báo cáo PDF & Word | `PhungLeThanhQuan_C9_BaoCao_FINAL.pdf`, `PhungLeThanhQuan_C9_BaoCao_FINAL.docx` |
-| Slide thuyết trình | `PhungLeThanhQuan_C9_Slide_ThuyetTrinh_FINAL.pptx` |
+| Báo cáo PDF & Word | `PhungLeThanhQuan_C9_BaoCao.pdf`, `PhungLeThanhQuan_C9_BaoCao.docx` |
+| Slide thuyết trình | `PhungLeThanhQuan_C9_Slide_ThuyetTrinh.pptx` |
 | Notebook có output thực nghiệm | `PhungLeThanhQuan_C9_Notebook.ipynb` |
 | Notebook Colab huấn luyện phụ | `ResLinCNN_Lite_Model_Mở Rộng (train riêng để tối ưu thời gian).ipynb` |
 | Module Python cốt lõi tái lập Notebook | `src/` (19 module thuật toán CS, OMP-DCT, CNN 1D, ESP32, kiểm toán) |
